@@ -1,5 +1,5 @@
 const proxy = "https://proxy.techzbots1.workers.dev/?u=";
-const searchapi = "https://api.anime-dex.workers.dev/search/";
+const searchapi = "https://api.ralcs.workers.dev/search/";
 
 // Usefull functions
 
