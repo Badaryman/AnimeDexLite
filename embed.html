@@ -30,7 +30,15 @@
     <script src="https://cdn.jsdelivr.net/npm/hls.js"></script>
     <script src="https://unpkg.com/plyr@3"></script>
     <script async src="https://www.googletagmanager.com/gtag/js?id=G-BHQX4066ZV"></script>
-    <script>window.dataLayer = window.dataLayer || []; function gtag() { dataLayer.push(arguments); } gtag('js', new Date()); gtag('config', 'G-BHQX4066ZV');</script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+
+        function gtag() {
+            dataLayer.push(arguments);
+        }
+        gtag('js', new Date());
+        gtag('config', 'G-BHQX4066ZV');
+    </script>
 </head>
 
 <body>
@@ -66,6 +74,13 @@
                 });
                 hls.attachMedia(video);
                 window.hls = hls;
+
+                // Automatically play the video in landscape mode
+                if (screen.orientation) {
+                    screen.orientation.lock("landscape").catch((error) => {
+                        console.log("Could not lock the screen orientation:", error);
+                    });
+                }
             } else {
                 const player = new Plyr(video, defaultOptions);
             }
