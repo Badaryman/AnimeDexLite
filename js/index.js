@@ -1,8 +1,8 @@
 // Api urls
 
-const proxy = "https://proxy.techzbots1.workers.dev/?u=";
-const IndexApi = "https://api.ralcs.workers.dev/home";
-const recentapi = "https://api.ralcs.workers.dev/recent/";
+const proxy = "https://sparkling-sun-2458.animeq.workers.dev/?u=";
+const IndexApi = "https://api.animeq.workers.dev/home";
+const recentapi = "https://api.animeq.workers.dev/recent/";
 
 // Usefull functions
 
