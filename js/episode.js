@@ -1,7 +1,7 @@
-const proxy = "https://proxy.techzbots1.workers.dev/?u=";
-const animeapi = "https://api.ralcs.workers.dev/anime/";
-const episodeapi = "https://api.ralcs.workers.dev/episode/";
-const dlapi = "https://api.ralcs.workers.dev/download/";
+const proxy = "https://sparkling-sun-2458.animeq.workers.dev/?u=";
+const animeapi = "https://api.animeq.workers.dev/anime/";
+const episodeapi = "https://api.animeq.workers.dev/episode/";
+const dlapi = "https://api.animeq.workers.dev/download/";
 
 // Usefull functions
 
