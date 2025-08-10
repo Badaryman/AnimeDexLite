@@ -1,8 +1,8 @@
 // Api urls
 
-const proxy = "https://proxy.techzbots1.workers.dev/?u=";
-const animeapi = "https://api.ralcs.workers.dev/anime/";
-const recommendationsapi = "https://api.ralcs.workers.dev/recommendations/";
+const proxy = "https://api.animeq.workers.dev/?u=";
+const animeapi = "https://api.animeq.workers.dev/anime/";
+const recommendationsapi = "https://api.animeq.workers.dev/recommendations/";
 
 // Usefull functions
 
